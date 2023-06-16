@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;   
+    /* background-color: red; */
+}
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+    padding: 20px;
+    width: 820px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+input {
+    border: 4px solid black;
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 0 20px;
+    height: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+h3, p {
+    font-size: 20px;
+}
+
+#login-button {
+    background-color: #4176DD;
+    color: #ffffff;
+    height: 40px;
+    width: 130px;
+}
+
+.main-container {
+    width: 820px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+}
+
+.main-section {
+    height: inherit;
+    /* background-color: pink; */
+}
+
+aside {
+    margin-left: 20px;
+    height: inherit;
+    /* background-color: lightblue; */
+}
+
+.box {
+    display: flex;
+    border: 4px solid black;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+aside p {
+    font-size: 30px;
+}
+
+aside .box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inner-row {
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.word-to-define * {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.definition {
+    flex: 3;
+    padding-left: 20px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 4px solid black;
+    box-shadow: 3px 3px black;
+}
+
+main .button {
+    margin-top: 20px;
+}
+
+.main-section .button {
+    background-color: #F9DA78;
+    width: 100%;
+}
+
+#add-definition-button {
+    background-color: #9DC384;
+    width: 100%;
+}
